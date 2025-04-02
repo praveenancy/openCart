@@ -28,12 +28,6 @@ public class TC004_Add_Iteeam_To_Cart extends BaseClass {
 		 Thread.sleep(3000);
 		 captureScreen("praveen");
 		 
-		 // here we capturing
-		 
-		 if(msgStatus==false)
-		 {
-			 System.out.println("failed");
-		 }
 		 
 	}
 
