@@ -14,6 +14,7 @@ public class Product extends BasePage{
 	
 	@FindBy(xpath = "//*[text()= 'Add to Cart']") WebElement addCart;
 	@FindBy(xpath ="//*[contains(@class, 'alert alert-success alert-dismissible')]") WebElement successmsg;
+	@FindBy(xpath ="(//span[@class='hidden-xs hidden-sm hidden-md'])[5]") WebElement cart;
 	
 	
 	public void addToCart()
@@ -25,4 +26,11 @@ public class Product extends BasePage{
 	{
 		return successmsg;
 	}
+	
+	public void tapOnCart()
+	{
+		cart.click();
+	}
+	
+	
 }
