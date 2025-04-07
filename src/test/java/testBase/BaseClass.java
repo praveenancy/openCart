@@ -130,7 +130,7 @@ public String randomString() {
 		 
 		 File sourceFile=	ts.getScreenshotAs(OutputType.FILE);
 		 String targetFilePath = System.getProperty("user.dir")+"\\screenshots"+fname +"_"+timestamp+".png";
-		 File targetFile = new File(".\\screenshots\\"+fname+".png");
+		 File targetFile = new File(targetFilePath);
 		 sourceFile.renameTo(targetFile);
 		 
 		 return targetFilePath;

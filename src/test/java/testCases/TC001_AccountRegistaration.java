@@ -16,7 +16,7 @@ public class TC001_AccountRegistaration extends BaseClass{
 	{
 		
 		HomePage homePage = new HomePage(driver);
-		Thread.sleep(3000);
+	
 		logger.info("Tapping on my acount");
 		homePage.clickOnMyAccount();
 		logger.info("tapping on registor");

@@ -18,7 +18,7 @@ public class TC002_Login extends BaseClass{
 	{
 		
 		HomePage hp = new HomePage(driver);
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		hp.clickOnMyAccount();
 		hp.login();
 		
