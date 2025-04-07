@@ -1,13 +1,16 @@
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\AccountRegistrationPage.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\BasePage.java
+C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\Cart.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\HomePage.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\LoginPage.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\MyAccount.java
+C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\pageObjects\Product.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testBase\BaseClass.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testBase\Dataprovider.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testCases\TC001_AccountRegistaration.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testCases\TC002_Login.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testCases\TC003_DataProvideLogin.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testCases\TC003_DataProvideLoginWrite.java
+C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\testCases\TC004_Add_Iteeam_To_Cart.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\utilities\ExcelUtility.java
 C:\Users\gopraveen\eclipse-workspace\openCart\src\test\java\utilities\ExtentReportManager.java
