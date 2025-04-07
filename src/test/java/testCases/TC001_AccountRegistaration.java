@@ -12,11 +12,11 @@ public class TC001_AccountRegistaration extends BaseClass{
 	
 	
 	@Test(groups = "Regression")
-	public void Registration()
+	public void Registration() throws InterruptedException
 	{
 		
 		HomePage homePage = new HomePage(driver);
-		
+		Thread.sleep(3000);
 		logger.info("Tapping on my acount");
 		homePage.clickOnMyAccount();
 		logger.info("tapping on registor");
