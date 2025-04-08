@@ -12,7 +12,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="dpLogin" invocation-numbers="0 1 2"/>
+          <include name="dpLogin" invocation-numbers="1 2"/>
         </methods>
       </class> <!-- testCases.TC003_DataProvideLogin -->
     </classes>

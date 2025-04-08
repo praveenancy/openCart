@@ -41,6 +41,8 @@ public class TC003_DataProvideLogin extends BaseClass {
 		Data is invalid - login success - test fail  - logout
 		Data is invalid -- login failed - test pass  */
 		
+		
+		
 		logger.info("check login status");
 		if(exp.equalsIgnoreCase("valid"))
 		{
@@ -51,6 +53,7 @@ public class TC003_DataProvideLogin extends BaseClass {
 				
 			}
 			else {
+				System.out.println("valid "+"status : "+status+""+ email +"  "+ pass);
 				assertTrue(false);
 			}
 			
@@ -61,6 +64,7 @@ public class TC003_DataProvideLogin extends BaseClass {
 			if(status ==true)
 			{
 				ma.logout();
+				System.out.println("valid "+"status :  "+status+""+ email +"  "+ pass);
 				assertTrue(false);
 				
 			}
