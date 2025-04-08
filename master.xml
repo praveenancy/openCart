@@ -12,11 +12,12 @@
 <parameter name="browser" value="chrome"></parameter>
 
     <classes>
-    <class name="testCases.TC004_Add_Iteeam_To_Cart"></class>
-     <class name="testCases.TC001_AccountRegistaration"/>
+    <class name="testCases.TC004_Add_Iteeam_To_Cart"> </class> 
+     <class name="testCases.TC001_AccountRegistaration">
+     </class>
      <class name="testCases.TC002_Login"></class> 
      <class name="testCases.TC003_DataProvideLogin"></class> 
-     <!--  <class name="testCases.TC003_DataProvideLoginWrite"></class>-->
+      <class name="testCases.TC003_DataProvideLoginWrite"></class>
     </classes>
     
   </test> <!-- Test -->

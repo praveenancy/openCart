@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                    <span class="method-stats">12 methods, 6 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content failed suite-master">
                       <span>
                         <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLogin" class="method navigator-link" hash-for-method="dpLogin(pavanoltraining@gmail.com, test@123, Valid)">dpLogin(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLogin" class="method navigator-link" hash-for-method="dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)">dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLoginWrite" class="method navigator-link" hash-for-method="dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)">dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -113,7 +123,12 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLogin" class="method navigator-link" hash-for-method="dpLogin(pavanoltraining@gmail.com, test@123, Valid)">dpLogin(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLoginWrite" class="method navigator-link" hash-for-method="dpLogin(laksh@yahoo.com, Lakshmi, Invalid)">dpLogin(laksh@yahoo.com, Lakshmi, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLoginWrite" class="method navigator-link" hash-for-method="dpLogin(pavanoltraining@gmail.com, test@123, Valid)">dpLogin(pavanoltraining@gmail.com, test@123, Valid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-master -->
@@ -132,12 +147,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLoginWrite" class="method navigator-link" hash-for-method="dpLogin(laks@yahoo.com, xyz, Invalid)">dpLogin(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-master" title="testCases.TC003_DataProvideLogin" class="method navigator-link" hash-for-method="dpLogin(laks@yahoo.com, xyz, Invalid)">dpLogin(laks@yahoo.com, xyz, Invalid)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-master" title="testCases.TC002_Login" class="method navigator-link" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-master" title="testCases.TC001_AccountRegistaration" class="method navigator-link" hash-for-method="registrationErrorMessagesValidation">registrationErrorMessagesValidation</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -160,7 +185,7 @@
           <div class="suite-master-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">testCases.TC003_DataProvideLogin</span>
+              <span class="class-name">testCases.TC003_DataProvideLoginWrite</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -170,7 +195,7 @@
                   <span class="method-name">dpLogin</span>
                   <span class="parameters">(lakshmi@yahoo.com,Laxmi,Invalid)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:58)
+	at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:81)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -183,7 +208,7 @@
                   <span class="method-name">dpLogin</span>
                   <span class="parameters">(laksh@yahoo.com,Lakshmi,Invalid)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:58)
+	at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:81)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -196,7 +221,7 @@
                   <span class="method-name">dpLogin</span>
                   <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:48)
+	at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:68)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -204,6 +229,69 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-master-class-failed -->
+          <div class="suite-master-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.TC003_DataProvideLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dpLogin(pavanoltraining@gmail.com, test@123, Valid)">
+                  </a> <!-- dpLogin(pavanoltraining@gmail.com, test@123, Valid) -->
+                  <span class="method-name">dpLogin</span>
+                  <span class="parameters">(pavanoltraining@gmail.com,test@123,Valid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)">
+                  </a> <!-- dpLogin(lakshmi@yahoo.com, Laxmi, Invalid) -->
+                  <span class="method-name">dpLogin</span>
+                  <span class="parameters">(lakshmi@yahoo.com,Laxmi,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dpLogin(laksh@yahoo.com, Lakshmi, Invalid)">
+                  </a> <!-- dpLogin(laksh@yahoo.com, Lakshmi, Invalid) -->
+                  <span class="method-name">dpLogin</span>
+                  <span class="parameters">(laksh@yahoo.com,Lakshmi,Invalid)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at testCases.TC003_DataProvideLogin.dpLogin(TC003_DataProvideLogin.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-master-class-failed -->
+          <div class="suite-master-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.TC003_DataProvideLoginWrite</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dpLogin(laks@yahoo.com, xyz, Invalid)">
+                  </a> <!-- dpLogin(laks@yahoo.com, xyz, Invalid) -->
+                  <span class="method-name">dpLogin</span>
+                  <span class="parameters">(laks@yahoo.com,xyz,Invalid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-master-class-passed -->
           <div class="suite-master-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -248,6 +336,13 @@
                   <span class="method-name">Registration</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationErrorMessagesValidation">
+                  </a> <!-- registrationErrorMessagesValidation -->
+                  <span class="method-name">registrationErrorMessagesValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-master-class-passed -->
           <div class="suite-master-class-passed">
@@ -286,6 +381,7 @@
       &lt;class name=&quot;testCases.TC001_AccountRegistaration&quot;/&gt;
       &lt;class name=&quot;testCases.TC002_Login&quot;/&gt;
       &lt;class name=&quot;testCases.TC003_DataProvideLogin&quot;/&gt;
+      &lt;class name=&quot;testCases.TC003_DataProvideLoginWrite&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- master --&gt;
@@ -299,7 +395,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Test (5 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -314,6 +410,10 @@
               <br/>
               <div class="method-in-group">
                 <span class="method-in-group-name">Registration</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">registrationErrorMessagesValidation</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
@@ -337,40 +437,60 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'dpLogin')
-data.setCell(0, 2, 'testCases.TC003_DataProvideLogin')
-data.setCell(0, 3, 11422);
+data.setCell(0, 2, 'testCases.TC003_DataProvideLoginWrite')
+data.setCell(0, 3, 14985);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'dpLogin')
-data.setCell(1, 2, 'testCases.TC003_DataProvideLogin')
-data.setCell(1, 3, 10733);
+data.setCell(1, 2, 'testCases.TC003_DataProvideLoginWrite')
+data.setCell(1, 3, 12093);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginTest')
-data.setCell(2, 2, 'testCases.TC002_Login')
-data.setCell(2, 3, 7399);
+data.setCell(2, 1, 'dpLogin')
+data.setCell(2, 2, 'testCases.TC003_DataProvideLogin')
+data.setCell(2, 3, 11645);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'searchProduct')
-data.setCell(3, 2, 'testCases.TC004_Add_Iteeam_To_Cart')
-data.setCell(3, 3, 6987);
+data.setCell(3, 1, 'dpLogin')
+data.setCell(3, 2, 'testCases.TC003_DataProvideLogin')
+data.setCell(3, 3, 11586);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'dpLogin')
-data.setCell(4, 2, 'testCases.TC003_DataProvideLogin')
-data.setCell(4, 3, 2699);
+data.setCell(4, 1, 'loginTest')
+data.setCell(4, 2, 'testCases.TC002_Login')
+data.setCell(4, 3, 7569);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Registration')
-data.setCell(5, 2, 'testCases.TC001_AccountRegistaration')
-data.setCell(5, 3, 2660);
+data.setCell(5, 1, 'searchProduct')
+data.setCell(5, 2, 'testCases.TC004_Add_Iteeam_To_Cart')
+data.setCell(5, 3, 6135);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'dpLogin')
-data.setCell(6, 2, 'testCases.TC003_DataProvideLogin')
-data.setCell(6, 3, 2240);
+data.setCell(6, 1, 'Registration')
+data.setCell(6, 2, 'testCases.TC001_AccountRegistaration')
+data.setCell(6, 3, 4573);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'dpLogin')
+data.setCell(7, 2, 'testCases.TC003_DataProvideLoginWrite')
+data.setCell(7, 3, 3176);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'dpLogin')
+data.setCell(8, 2, 'testCases.TC003_DataProvideLoginWrite')
+data.setCell(8, 3, 2949);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'dpLogin')
+data.setCell(9, 2, 'testCases.TC003_DataProvideLogin')
+data.setCell(9, 3, 2853);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'dpLogin')
+data.setCell(10, 2, 'testCases.TC003_DataProvideLogin')
+data.setCell(10, 3, 2581);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'registrationErrorMessagesValidation')
+data.setCell(11, 2, 'testCases.TC001_AccountRegistaration')
+data.setCell(11, 3, 1967);
 window.suiteTableData['master']= { tableData: data, tableDiv: 'times-div-master'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-master">
               </div> <!-- times-div-master -->
             </div> <!-- times-div -->
@@ -397,81 +517,174 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC004_Add_Iteeam_To_Cart</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setup(windows, chrome)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchProduct</span>
-                <span class="method-start">6834 ms</span>
+                <span class="method-start">8804 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13837 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">14961 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC001_AccountRegistaration</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">14221 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">15487 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Registration</span>
-                <span class="method-start">19976 ms</span>
+                <span class="method-start">23316 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22638 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">27889 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">28381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">registrationErrorMessagesValidation</span>
+                <span class="method-start">37523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39493 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC002_Login</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">22941 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">39997 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest</span>
-                <span class="method-start">29195 ms</span>
+                <span class="method-start">47158 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">36596 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">54727 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.TC003_DataProvideLogin</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
+              <div class="configuration-method before">
                 <span class="method-name">setup(windows, chrome)</span>
-                <span class="method-start">38506 ms</span>
-              </div> <!-- configuration-class before -->
+                <span class="method-start">56413 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">dpLogin(pavanoltraining@gmail.com, test@123, Valid)</span>
-                <span class="method-start">45949 ms</span>
+                <span class="method-start">62794 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74739 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">75223 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)</span>
-                <span class="method-start">57709 ms</span>
+                <span class="method-start">81589 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">85158 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">dpLogin(laksh@yahoo.com, Lakshmi, Invalid)</span>
-                <span class="method-start">60672 ms</span>
+                <span class="method-start">92089 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">94984 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">95335 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">dpLogin(laks@yahoo.com, xyz, Invalid)</span>
-                <span class="method-start">63182 ms</span>
+                <span class="method-start">102906 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-class after">
+              <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">73916 ms</span>
-              </div> <!-- configuration-class after -->
+                <span class="method-start">114551 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.TC003_DataProvideLoginWrite</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">115511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dpLogin(pavanoltraining@gmail.com, test@123, Valid)</span>
+                <span class="method-start">122307 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">134702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">135201 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dpLogin(lakshmi@yahoo.com, Laxmi, Invalid)</span>
+                <span class="method-start">141648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">145498 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">dpLogin(laksh@yahoo.com, Lakshmi, Invalid)</span>
+                <span class="method-start">152194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155424 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(windows, chrome)</span>
+                <span class="method-start">155834 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">dpLogin(laks@yahoo.com, xyz, Invalid)</span>
+                <span class="method-start">160198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">175189 ms</span>
+              </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

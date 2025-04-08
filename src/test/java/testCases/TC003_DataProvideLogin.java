@@ -15,18 +15,23 @@ public class TC003_DataProvideLogin extends BaseClass {
 	@Test(dataProvider = "testdata", dataProviderClass = Dataprovider.class)
 	public void dpLogin(String email, String pass, String exp)
 	{
-		logger.info("strted testing");
 	
 		HomePage hm = new HomePage(driver);
+		logger.info("Tap on my acount");
 		hm.clickOnMyAccount();
+		logger.info("Tap on login");
 		hm.login();
 		
+		logger.info("enter email and password");
      	LoginPage lp = new LoginPage(driver);
 		lp.enterEmail(email);
 		lp.enterPassword(pass);
+		logger.info("Tap on login button");
 		lp.login();
 	
+		
 		MyAccount ma = new MyAccount(driver);
+		logger.info("validate My account section is displayed");
 		boolean status = ma.validateMyAccount();
 		
 		
@@ -36,6 +41,7 @@ public class TC003_DataProvideLogin extends BaseClass {
 		Data is invalid - login success - test fail  - logout
 		Data is invalid -- login failed - test pass  */
 		
+		logger.info("check login status");
 		if(exp.equalsIgnoreCase("valid"))
 		{
 			if(status==true)

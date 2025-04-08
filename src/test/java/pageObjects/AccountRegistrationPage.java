@@ -24,6 +24,9 @@ public class AccountRegistrationPage  extends BasePage{
 	
 	@FindBy(xpath = "//h1[text()='Your Account Has Been Created!']") WebElement successmsg;
 	
+	// error messages
+	
+	
 	
 	
 	public void FirstName(String fname) {
