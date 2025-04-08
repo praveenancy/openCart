@@ -143,7 +143,7 @@ public String randomString() {
 		 TakesScreenshot ts = (TakesScreenshot) driver;
 		 
 		 File sourceFile=	ts.getScreenshotAs(OutputType.FILE);
-		 String targetFilePath = System.getProperty("user.dir")+"\\screenshots"+fname +"_"+timestamp+".png";
+		 String targetFilePath = System.getProperty("user.dir")+"\\screenshots\\"+fname +"_"+timestamp+".png";
 		 File targetFile = new File(targetFilePath);
 		 sourceFile.renameTo(targetFile);
 		 

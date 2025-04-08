@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
+<testng-results ignored="0" total="4" passed="1" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-08T12:49:45 IST" name="master" finished-at="2025-04-08T12:52:43 IST" duration-ms="177681">
+  <suite started-at="2025-04-08T13:13:18 IST" name="master" finished-at="2025-04-08T13:14:19 IST" duration-ms="60761">
     <groups>
-      <group name="Regression">
-        <method signature="TC004_Add_Iteeam_To_Cart.searchProduct()[pri:0, instance:testCases.TC004_Add_Iteeam_To_Cart@c730b35]" name="searchProduct" class="testCases.TC004_Add_Iteeam_To_Cart"/>
-        <method signature="TC001_AccountRegistaration.Registration()[pri:1, instance:testCases.TC001_AccountRegistaration@7eac9008]" name="Registration" class="testCases.TC001_AccountRegistaration"/>
-        <method signature="TC001_AccountRegistaration.registrationErrorMessagesValidation()[pri:2, instance:testCases.TC001_AccountRegistaration@7eac9008]" name="registrationErrorMessagesValidation" class="testCases.TC001_AccountRegistaration"/>
-      </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-04-08T12:49:45 IST" name="Test" finished-at="2025-04-08T12:52:43 IST" duration-ms="177681">
+    <test started-at="2025-04-08T13:13:18 IST" name="Test" finished-at="2025-04-08T13:14:19 IST" duration-ms="60761">
       <class name="testCases.TC003_DataProvideLogin">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:50:42 IST" name="setup" finished-at="2025-04-08T12:50:48 IST" duration-ms="6381" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:20 IST" name="setup" finished-at="2025-04-08T13:13:26 IST" duration-ms="6789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:50:48 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:51:00 IST" duration-ms="11586" status="FAIL">
+        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:26 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T13:13:37 IST" duration-ms="10940" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -91,11 +86,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:00 IST" name="tearDown" finished-at="2025-04-08T12:51:01 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:38 IST" name="tearDown" finished-at="2025-04-08T13:13:40 IST" duration-ms="2016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:01 IST" name="setup" finished-at="2025-04-08T12:51:07 IST" duration-ms="6366" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:40 IST" name="setup" finished-at="2025-04-08T13:13:46 IST" duration-ms="6119" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -111,7 +106,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:07 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:51:10 IST" duration-ms="2853" status="FAIL">
+        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:46 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T13:13:48 IST" duration-ms="2491" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -174,11 +169,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:10 IST" name="tearDown" finished-at="2025-04-08T12:51:11 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:48 IST" name="tearDown" finished-at="2025-04-08T13:13:49 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:11 IST" name="setup" finished-at="2025-04-08T12:51:18 IST" duration-ms="6931" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:49 IST" name="setup" finished-at="2025-04-08T13:13:56 IST" duration-ms="6962" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -194,7 +189,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:18 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:51:20 IST" duration-ms="2581" status="FAIL">
+        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:56 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T13:13:59 IST" duration-ms="2879" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -257,11 +252,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:21 IST" name="tearDown" finished-at="2025-04-08T12:51:21 IST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:59 IST" name="tearDown" finished-at="2025-04-08T13:13:59 IST" duration-ms="435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:21 IST" name="setup" finished-at="2025-04-08T12:51:28 IST" duration-ms="7571" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:13:59 IST" name="setup" finished-at="2025-04-08T13:14:06 IST" duration-ms="7080" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,7 +272,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:28 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:51:40 IST" duration-ms="11645" status="PASS">
+        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:14:06 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T13:14:18 IST" duration-ms="11766" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -298,405 +293,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@62ddbd7e]" started-at="2025-04-08T12:51:40 IST" name="tearDown" finished-at="2025-04-08T12:51:41 IST" duration-ms="550" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLogin@776aec5c]" started-at="2025-04-08T13:14:18 IST" name="tearDown" finished-at="2025-04-08T13:14:19 IST" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_DataProvideLogin -->
-      <class name="testCases.TC003_DataProvideLoginWrite">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:51:41 IST" name="setup" finished-at="2025-04-08T12:51:48 IST" duration-ms="6796" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:51:48 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:52:00 IST" duration-ms="12093" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[pavanoltraining@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[test@123]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Valid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:68)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:00 IST" name="tearDown" finished-at="2025-04-08T12:52:01 IST" duration-ms="499" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:01 IST" name="setup" finished-at="2025-04-08T12:52:07 IST" duration-ms="6447" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:07 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:52:10 IST" duration-ms="3176" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lakshmi@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Laxmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:81)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:11 IST" name="tearDown" finished-at="2025-04-08T12:52:11 IST" duration-ms="360" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:11 IST" name="setup" finished-at="2025-04-08T12:52:18 IST" duration-ms="6696" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:18 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:52:21 IST" duration-ms="2949" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laksh@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Lakshmi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testCases.TC003_DataProvideLoginWrite.dpLogin(TC003_DataProvideLoginWrite.java:81)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:21 IST" name="tearDown" finished-at="2025-04-08T12:52:21 IST" duration-ms="410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:21 IST" name="setup" finished-at="2025-04-08T12:52:26 IST" duration-ms="4364" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="dpLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:26 IST" name="dpLogin" data-provider="testdata" finished-at="2025-04-08T12:52:41 IST" duration-ms="14985" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[laks@yahoo.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyz]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Invalid]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dpLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_DataProvideLoginWrite@74e52ef6]" started-at="2025-04-08T12:52:41 IST" name="tearDown" finished-at="2025-04-08T12:52:43 IST" duration-ms="2059" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_DataProvideLoginWrite -->
-      <class name="testCases.TC002_Login">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_Login@4116aac9]" started-at="2025-04-08T12:50:26 IST" name="setup" finished-at="2025-04-08T12:50:33 IST" duration-ms="7161" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:testCases.TC002_Login@4116aac9]" started-at="2025-04-08T12:50:33 IST" name="loginTest" finished-at="2025-04-08T12:50:40 IST" duration-ms="7569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_Login@4116aac9]" started-at="2025-04-08T12:50:40 IST" name="tearDown" finished-at="2025-04-08T12:50:41 IST" duration-ms="527" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_Login -->
-      <class name="testCases.TC001_AccountRegistaration">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:01 IST" name="setup" finished-at="2025-04-08T12:50:09 IST" duration-ms="7829" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Registration()[pri:1, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:09 IST" name="Registration" finished-at="2025-04-08T12:50:13 IST" duration-ms="4573" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:13 IST" name="tearDown" finished-at="2025-04-08T12:50:14 IST" duration-ms="489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:14 IST" name="setup" finished-at="2025-04-08T12:50:23 IST" duration-ms="9142" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="registrationErrorMessagesValidation()[pri:2, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:23 IST" name="registrationErrorMessagesValidation" finished-at="2025-04-08T12:50:25 IST" duration-ms="1967" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registrationErrorMessagesValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistaration@7eac9008]" started-at="2025-04-08T12:50:25 IST" name="tearDown" finished-at="2025-04-08T12:50:26 IST" duration-ms="502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_AccountRegistaration -->
-      <class name="testCases.TC004_Add_Iteeam_To_Cart">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_Add_Iteeam_To_Cart@c730b35]" started-at="2025-04-08T12:49:46 IST" name="setup" finished-at="2025-04-08T12:49:54 IST" duration-ms="8803" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[windows]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="searchProduct()[pri:0, instance:testCases.TC004_Add_Iteeam_To_Cart@c730b35]" started-at="2025-04-08T12:49:54 IST" name="searchProduct" finished-at="2025-04-08T12:50:01 IST" duration-ms="6135" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_Add_Iteeam_To_Cart@c730b35]" started-at="2025-04-08T12:50:01 IST" name="tearDown" finished-at="2025-04-08T12:50:01 IST" duration-ms="518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_Add_Iteeam_To_Cart -->
     </test> <!-- Test -->
   </suite> <!-- master -->
 </testng-results>

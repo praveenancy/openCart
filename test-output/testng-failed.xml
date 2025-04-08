@@ -8,13 +8,6 @@
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_DataProvideLoginWrite">
-        <methods>
-          <include name="tearDown"/>
-          <include name="dpLogin" invocation-numbers="0 1 2"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC003_DataProvideLoginWrite -->
       <class name="testCases.TC003_DataProvideLogin">
         <methods>
           <include name="tearDown"/>

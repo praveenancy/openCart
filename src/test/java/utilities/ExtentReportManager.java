@@ -92,8 +92,7 @@ public class ExtentReportManager implements ITestListener {
 		} catch (Exception e1) {
 			e1.printStackTrace();
 		}
-		BaseClass bs = new BaseClass();
-		bs.captureScreen("praveen143");
+		
 	}
 
 	public void onTestSkipped(ITestResult result) {
